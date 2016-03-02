@@ -20,7 +20,7 @@ public class HelloWorldServlet extends HttpServlet {
 		
 		PrintWriter out = resp.getWriter();
 		out.print("Hello World from Servlet modifying for test");
-		out.print("Welcome Servlet  :)");
+		out.print("Welcome Servlet gopaddle :)");
 		out.flush();
 		out.close();
 	}
