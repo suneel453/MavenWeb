@@ -19,7 +19,7 @@ public class HelloWorldServlet extends HttpServlet {
 		resp.setContentType("text/html");
 		
 		PrintWriter out = resp.getWriter();
-		out.print(" Hey Hello World java by suneel453....!\n");
+		out.print(" Hey Hello World java by suneel....!\n");
 		out.print("Welcome Servlet container ........:)");
 		out.flush();
 		out.close();
